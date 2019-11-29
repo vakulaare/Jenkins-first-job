@@ -1,0 +1,66 @@
+{\rtf1\ansi\ansicpg1252\cocoartf1561\cocoasubrtf600
+{\fonttbl\f0\fswiss\fcharset0 Helvetica;}
+{\colortbl;\red255\green255\blue255;}
+{\*\expandedcolortbl;;}
+\paperw11900\paperh16840\margl1440\margr1440\vieww10800\viewh8400\viewkind0
+\pard\tx566\tx1133\tx1700\tx2267\tx2834\tx3401\tx3968\tx4535\tx5102\tx5669\tx6236\tx6803\pardirnatural\partightenfactor0
+
+\f0\fs24 \cf0 Create external table. \'97> data is sitting on s3.\
+\
+Partitions think as columns. (Partitioned by)\
+\
+Loading partitions \'97> MSCK Repair table tablename;\
+\
+Two ways to access Athena \'97> 1. Console\
+                                                     2. JDBC Driver (has region specific url)\
+\
+How IAM user authenticate to Atehna?\
+\
+Using secret access key and password. This is how, he will browse to Athena tables and run queries.\
+\
+For quicksight, Athena data source will be Athena tables.\
+\
+Hive Metadata store and Athena metadata store can coexist.\
+\
+Show partitions table name\
+\
+\
+\'97\'97\'97\'97\'97\
+\
+.tf extension\
+\
+Terraform init\
+\
+Terraform apply.  \
+\
+Note: User need to Role that gives full access on EC2\
+\
+Terraform destroy\
+\
+\'97\'97\'97\'97\'97\'97\'97\'97\
+\
+EC2 AutoScaling\
+Application AutoScaling\
+AWS AutoScaling\
+\
+Golden Image and User data\
+\
+ASG is not homogeneous. We can have mix and match of Spot and dedicated instances. While creating ASG, We can specify how much percentage of spot and dedicated we need to have in ASG.\
+\
+Target Tracking determines how many number of instances need to launch to bring back CPU utilisation to normal level.\
+\
+\
+\'97\'97\'97\'97\'97\'97\'97\
+\
+Docker pull imaged\
+\
+Docker images\
+\
+Docker run -dt imaged\
+\
+Docker commit\
+\
+\
+https://www.youtube.com/watch?v=s73nhwYBtzE\
+\
+}
